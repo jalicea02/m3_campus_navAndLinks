@@ -8,12 +8,12 @@
         <meta name="description" content="Learn about the different types of anchor tags, or links, that you can use when building a page for the web. Make it possible to navigate between pages, send an email, call a number, and more with anchor tags!">
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body id="top">
         <header>
             <h1>Navigation and Links</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -73,7 +73,7 @@
                 <!-- TO DO: ADD AN EMAIL LINK TO THIS SECTION, USING YOUR ASU EMAIL AND REPLACING THE TEXT YOUREMAIL@ASU.EDU -->
                 <section id="email">
                     <h3>E-Mail Hyperlinks</h3>
-                    <p>Email hyperlinks will automatically launch the user's default mail program. Unfortunately, sites that have coded email hyperlinks may have an issue with spam. The trend today is to use contact forms rather than email addresses, or include the address in the website as content rather than an email link. However, for practice, code your name linking to your ASU email address here: <a href="jalicea4@asu.edu">jalicea4@asu.edu</a></p>
+                    <p>Email hyperlinks will automatically launch the user's default mail program. Unfortunately, sites that have coded email hyperlinks may have an issue with spam. The trend today is to use contact forms rather than email addresses, or include the address in the website as content rather than an email link. However, for practice, code your name linking to your ASU email address here: <a href="mailto:jalicea4@asu.edu">jalicea4@asu.edu</a></p>
                 </section>
 
                 <section id="tel">
@@ -98,7 +98,7 @@
                 <p>While this site is not long enough to really require a back to top button, one has been created at the bottom of this page for your coding practice.</p>
 
                 <!-- TO DO: CREATE A BACK TO TOP LINK HERE -->
-                Back to Top <span>&#8679;</span>
+                <a href="#top">Back to Top <span>&#8679;</span></a>
             </section>
 
         </main>
@@ -109,8 +109,8 @@
 
                 <!-- TO DO: MAKE THE PHONE NUMBER AND EMAIL ADDRESS BELOW INTO PROPERLY FORMATTED LINKS INSIDE OF THE ADDRESS TAG -->
                 <address>
-                    (555) 555-5555<br>
-                    Email Jessica Barnett<br>
+                    <a href="tel:(555) 555-5555">(555) 555-5555<br></a>
+                    <a href="mailto:j.barnett@asu.edu">Email Jessica Barnett<br></a>
                 </address>
                 <!-- TO DO: COMPLETE THE LINK BELOW SO THAT IT WILL TAKE THE USER TO THE CONTACT SECTION ON THE CONTACT PAGE WHEN CLICKED -->
                 <p>You can also <a href="contact.html">contact us by filling out the contact form on our site</a>.</p>
